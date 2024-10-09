@@ -1,21 +1,7 @@
-![STRIDE GPT Logo](logo.png)
 
-STRIDE GPT is an AI-powered threat modelling tool that leverages Large Language Models (LLMs) to generate threat models and attack trees for a given application based on the STRIDE methodology. Users provide application details, such as the application type, authentication methods, and whether the application is internet-facing or processes sensitive data. The model then generates its output based on the provided information.
 
-## Table of Contents
-- [Star the Repo](#star-the-repo)
-- [Features](#features)
-- [Roadmap](#roadmap)
-- [Talk at Open Security Summit](#talk-at-open-security-summit)
-- [Changelog](#changelog)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+AI Security Assistant is an AI-powered threat modelling tool that leverages Large Language Models (LLMs) to generate threat models and attack trees for a given application based on the STRIDE methodology. Users provide application details, such as the application type, authentication methods, and whether the application is internet-facing or processes sensitive data. The model then generates its output based on the provided information.
 
-## Star the Repo
-
-If you find STRIDE GPT useful, please consider starring the repository on GitHub. This helps more people discover the tool. Your support is greatly appreciated! ⭐
 
 ## Features
 - Simple and user-friendly interface
@@ -31,26 +17,7 @@ If you find STRIDE GPT useful, please consider starring the repository on GitHub
 - Available as a Docker container image for easy deployment
 - 🆕 Environment variable support for secure configuration
 
-## Roadmap
-- [x] Add support for multi-modal threat modelling
-- [x] Autogenerate application descriptions based on README files in GitHub repositories
-- [ ] Customisable and exportable reports (e.g. PDF, Word) that include the generated threat model, attack tree, and mitigations
-- [ ] Add a helper tool to guide users to create effective application descriptions before generating threat models
-- [ ] Update UI to support multiple languages
-
-## Talk at Open Security Summit
-
-In January 2024 I gave a talk about STRIDE GPT at the [Open Security Summit](https://open-security-summit.org/sessions/2024/mini-summits/jan/threat-modeling/ai-driven-threat-modelling-with-stride-gpt/). During the talk, I discussed the project's inception, its core functionalities, recent updates, and some future plans. You can watch the full presentation below:
-
-[![Open Security Summit Talk](https://i3.ytimg.com/vi/_eOcezCeM1M/maxresdefault.jpg)](https://youtu.be/_eOcezCeM1M?si=88bjQ2M-_sCyIioi)
-
-This video is an excellent resource for anyone interested in understanding how STRIDE GPT works and how it can be used to improve threat modelling.
-
-## Changelog
-
-### Version 0.10 (latest)
-
-- **GitHub Repository Analysis**: STRIDE GPT now supports automatic analysis of GitHub repositories. Users can provide a GitHub repository URL, and the tool will analyse the README and key files to generate a more comprehensive threat model.
+- **GitHub Repository Analysis**: AI Security Assistant now supports automatic analysis of GitHub repositories. Users can provide a GitHub repository URL, and the tool will analyse the README and key files to generate a more comprehensive threat model.
 - **Environment Variable Support**: Added support for loading API keys and other configuration from environment variables, improving security and ease of deployment.
 - **Improved Error Handling**: Enhanced error handling and retry mechanisms for API calls to improve reliability.
 - **UI Enhancements**: Updated the user interface to accommodate new features and improve overall user experience.
@@ -224,10 +191,3 @@ Release highlights:
 
 Note: When you run the application (either locally or via Docker), it will automatically load the environment variables you've set in the `.env` file. This will pre-fill the API keys in the application interface.
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
