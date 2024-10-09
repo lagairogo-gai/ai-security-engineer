@@ -383,7 +383,7 @@ with st.sidebar:
 
 # ------------------ Main App UI ------------------ #
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Threat Model", "Attack Tree"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Threat Model", "Attack Tree", "Mitigations"])
 
 with tab1:
     st.markdown("""
